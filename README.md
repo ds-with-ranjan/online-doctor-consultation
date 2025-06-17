@@ -20,7 +20,6 @@ A simple Flask-based web application that allows patients to register, log in, a
 
 ## 🗃️ Project Structure
 online_doctor_consult/
-│
 ├── app.py
 ├── create_db.py
 ├── database.db
@@ -33,19 +32,18 @@ online_doctor_consult/
 
 ## ⚙️ How to Run Locally
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/ds-with-ranjan/online-doctor-consultation.git
-   cd online-doctor-consultation
-  Install dependencies 
-pip install flask
+1. Clone the repo  
+   `git clone https://github.com/ds-with-ranjan/online-doctor-consultation.git`
 
-Create the database
-python create_db.py
+2. Install Flask  
+   `pip install flask`
 
-Run the app
-python app.py
+3. Create DB  
+   `python create_db.py`
 
- http://127.0.0.1:5000 in your browser!
-📌 Author
-Created by Ranjan Chakrabortty
+4. Run app  
+   `python app.py`
+
+## 📌 Author
+
+Created by [Ranjan Chakrabortty](https://github.com/ds-with-ranjan)
